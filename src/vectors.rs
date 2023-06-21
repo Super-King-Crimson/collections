@@ -22,7 +22,7 @@ pub fn explain() {
 
     //When a vector is dropped, its contents are dropped (a vector is the owner of all values inside of it)
     {
-        let vect = vec![0.1, 0.2, 0.3];
+        let tor = vec![0.1, 0.2, 0.3];
     }   //And the doubles were never seen again...
 
     using_values::explain();
