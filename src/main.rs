@@ -1,10 +1,16 @@
 #![allow(unused, dead_code)]
+use std::hash;
+
 use homepage as topic;
 mod vectors;
+mod strings;
+mod hashmaps;
 
 fn main() {
     // topic::introduce();
-    vectors::explain();
+    // vectors::explain();
+    // strings::explain();
+    hashmaps::explain();
 }
 
 mod homepage {

@@ -29,5 +29,5 @@ pub fn explain() {
     iteration::explain();
     enum_bypass::explain();
 
-    //Make sure to review the docs for vectors! There's a lot more that can be done, like Vec<T>::pop()
+    //Make sure to review the docs for vectors! There's a lot more that can be done, like pop
 }
