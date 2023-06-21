@@ -1,4 +1,4 @@
-mod slicing_strings;
+pub mod slicing;
 
 pub fn explain() {
     println!("It's pretty easy to get a character out of a string, just index it and-");
@@ -42,5 +42,5 @@ fn calm_down() {
     //If it had to go through a string to check which chars are returnable, char indexes wouldn't be O(1)
 
     //So Rust doesn't make a decision - it leaves it up to the programmer
-    slicing_strings::explain();
+    slicing::explain();
 }

@@ -1,5 +1,5 @@
 //Like the new module style? Hopefully it's not as intimidating as the 200 line files!
-mod reading;
+pub mod reading;
 
 pub fn explain() {
     println!("How does one get values out of a vector? Let's find out!");

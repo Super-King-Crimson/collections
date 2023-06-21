@@ -1,6 +1,6 @@
-mod using_values;
-mod iteration;
-mod enum_bypass;
+pub mod using_values;
+pub mod iteration;
+pub mod enum_bypass;
 
 pub fn explain() {
     println!("A vector's technical name is Vec<T>.");

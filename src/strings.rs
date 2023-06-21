@@ -1,5 +1,5 @@
-mod updating_strings;
-mod indexing;
+pub mod updating;
+pub mod indexing;
 
 pub fn explain() {
     println!("We'll be talking about:");
@@ -25,7 +25,7 @@ fn elaborate() {
     let fring = String::from("Hi Earth");
 
     //They can also store different languages because of UTF-8 encoding
-    updating_strings::explain();
+    updating::explain();
     indexing::explain();
 
     //As always, review the docs more more methods (like contains and replace)!

@@ -1,4 +1,4 @@
-mod iterator_safety;
+pub mod safety;
 
 pub fn explain() {
     //Use a for loop. What did you expect?
@@ -17,5 +17,5 @@ pub fn explain() {
 
     println!("The sum of the values in the vec was {prev_sum}, but now it's {post_sum}.");
 
-    iterator_safety::explain();
+    safety::explain();
 }

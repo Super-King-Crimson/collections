@@ -1,5 +1,5 @@
 #![allow(unused, dead_code)]
-use std::hash;
+use std::collections::HashMap;
 
 use homepage as topic;
 mod vectors;
@@ -15,8 +15,8 @@ fn main() {
 
 mod homepage {
     pub fn introduce() {
-        println!(
-            "CHAPTER 8: COMMON COLLECTIONS
+        println!("
+            CHAPTER 8: COMMON COLLECTIONS
 
             Collections are unique in Rust: not only can they contain multiple values like a tuple or array,
             but they're also stored on the heap, so the compiler doesn't need to know how much data they hold.
@@ -25,8 +25,7 @@ mod homepage {
                 - Vectors
                 - Strings
                 - Hash maps
-            There are more, which can be found on the Rust documentation.
-            "
+            There are more, which can be found on the Rust documentation."
         );
     }
 }
