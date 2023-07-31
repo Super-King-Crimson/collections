@@ -8,6 +8,8 @@ pub fn explain() {
     let mut post_sum = 0;
 
     //Be a good Rustacean and don't randomly take ownership of things!
+    //FROM THE FUTURE: The issue isn't that this is taking ownership, it juts requires mutable references
+        //Check out the iterator lesson for a beter explanation!
     for num in &mut rotcev {
         //Have to deref here: no implicit deref for addition of mutable references to numbers
         prev_sum += *num;

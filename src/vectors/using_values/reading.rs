@@ -11,7 +11,7 @@ pub fn explain() {
     
     //The reason why there are two methods is so you can choose what happens when you go past a vector's bounds
 
-    //Stops program with error
+    //Stops program with error (FROM THE FUTURE: It's actually called 'panicking')
     // let panic = hard_kanji[10];
 
     //Handles error

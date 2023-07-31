@@ -6,7 +6,7 @@ pub fn explain() {
 
     let mut v: Vec<i32>         = vec![1, 2];
     let mut iter: Iter<'_, i32> = v.iter();             //iter initialized, looking at 1
-    let n1: &i32                = iter.next().unwrap(); //1, iter looks at 2
+    let n1: &i32                = iter.next().unwrap(); //1, iter looks at 2 (mentally substitute unwrap with match statement)
     let n2: &i32                = iter.next().unwrap(); //2, iter is done moving frees own memory
     let end: Option<&i32>       = iter.next();          //iter has nothing left to return now, so this is None
 
